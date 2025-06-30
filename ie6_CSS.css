@@ -1,0 +1,212 @@
+body
+{
+	background-color:RGB(127,127,127);
+
+	padding:0px;
+	text-align: center;
+	min-width:908px;
+	
+
+}
+.body1
+{
+            width:908px;
+            margin: 0 auto;
+            text-align: left;
+	top:5px;
+	background-color:White;
+	
+}
+
+.headerlogo
+{
+	margin-top:0px;
+	
+	width:100%;
+	height:120px;
+	
+	background-color:white;
+	border-width:0px;
+	border-style:solid ;
+	border-color:gray ;
+	
+}
+
+
+.mainmenu
+{
+	position:relative;
+	margin-top:2px;
+font: bold 13px Arial;
+width: 908px; 
+overflow: hidden;
+
+
+}
+
+.mainmenu ul{
+margin: 0px;
+padding: 0px;
+float: left;
+width:100%; /*width of menu*/
+border: 0px solid black; /*dark purple border*/
+border-width: 0px;
+background-color:RGB(174,16,0);/*main menu background-color*/
+}
+
+.mainmenu ul li{
+display: inline;
+}
+
+.mainmenu ul li a{
+float: left;
+color: white; /*text color*/
+padding: 5px;
+padding-right:40px;
+padding-left:15px;
+text-decoration: none;
+border-right: 1px solid white; /*dark purple divider between menu items*/
+
+}
+
+
+
+.mainmenu ul li a:hover, .mainmenu ul li .current{
+color:Maroon !important; /*text color of selected and active item*/
+
+background-color: RGB(227,227,227);/*mainmenu hover background-color*/
+}
+.mainmenu ul li a:active{
+
+}
+
+
+.submenu
+{
+	color:Maroon;
+	position:absolute;
+	top:147px;
+font: bold 13px Arial;
+width: 908px; /*leave this value as is in most cases*/
+overflow: hidden;
+
+}
+
+
+.submenu ul{
+margin: 0px;
+padding: 0px;
+float: left;
+width: 100%; /*width of menu*/ 
+color:Maroon;
+background-color:RGB(227,227,227);/*submenu background-color*/
+}
+
+.submenu ul li{
+display: inline;
+color:Maroon;
+}
+
+.submenu ul li a{
+float: left;
+ color:Maroon;/*text color*/
+padding: 5px 11px;
+text-decoration: none;
+border-right: 0px solid maroon; /*dark purple divider between menu items*/
+}
+
+.submenu ul li a:visited{
+color:Maroon;
+}
+
+.submenu ul li a:hover, .submenu ul li .current{
+color:brown;
+}
+.mainmenu ul li a:active{
+}
+
+
+.content
+{
+
+
+width:894px;
+border-width:0px;
+border-style:solid;
+border-color:gray;
+padding:5px;
+
+}
+.copyright
+{
+position:relative;
+top:5px;
+background-color:RGB(174,16,0);
+
+width:100%;
+color:white;
+font-size:10px;
+text-align:center;
+padding-top:20px;
+
+
+
+}
+p
+{
+color:gray;
+font-family:Arial,Helvetica,sans-serif;
+text-align:justify;
+}
+h2
+{
+color:gray;
+	margin-top: 8px;
+	margin-bottom: 7px;
+}
+.end
+{
+height:10px;
+}
+
+ul.a
+{
+list-style-type: disc;
+padding: 30px;
+margin-left:200px;
+
+}
+
+ul.b
+{
+list-style-type:disc;
+padding: 0px;
+margin-left:20px;
+}
+li
+{
+	color:gray;
+	font-family:Arial,Helvetica,Sans-Serif;
+}
+th
+{
+	text-align:left;
+}
+.techtable th
+{
+	text-align:left; 
+	vertical-align:top;
+}
+.techtable td 
+{
+	text-align:left;	 
+	vertical-align:top;
+}
+.style
+{
+	vertical-align:left; 
+	vertical-align:top; 
+	padding-left:10px;
+	padding-right:14px;
+
+}
